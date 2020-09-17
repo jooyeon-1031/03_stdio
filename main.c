@@ -6,13 +6,11 @@
 int main(void)
 {
 	char c;
-	int i;
 	
-	printf("input a number:");
+	printf("input an alphabet :");
 	scanf("%c", &c);
 	
-	i= c - '0'; //conversion using '0' constant
-	printf("The input number is %i\n", i);
+	printf("input alphabet is %c (%d), and the next one is %c (%d)\n", c, c, c+1, c+1);
 	
 	return 0;
 }
